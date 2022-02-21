@@ -45,6 +45,15 @@
 
 <br/>
 
+<div>
+  <h2>Use Case</h2>  
+  <p>Este projeto foi idealizado para suprir um contexto de desenvolvimento de uma aplicação v2 (desacoplada e componentizada) compreendendo a necessidade das funcionalidades desenvolvidas serem compartilhadas com a  aplicação v1.<p>
+  <p>Neste cenário, o desenvolvimento da aplicação v2 ocorre normalmente. Com tudo, alguns componentes são disponibilizados (em: "page/public-components/ComponentName") com o intuito de serem utilizados na  aplicação v1, por intermédio de um Iframe, onde a uri realiza a requisição do componente, podendo enviar dados (nāo confidenciais, ex: variáveis de estilo, estado inicial...) via GET da aplicação v1 para v2.<p>
+  <p>Esta arquitetura foi pensada para atender um projeto de desenvolvimento contínuo, onde parar o desenvolvimento incremental do software, para criar uma nova versão do 0, não é uma opção.<p>
+</div>
+
+<br/>
+
 ## Start Project 
 ```bash
 # install dependencies
